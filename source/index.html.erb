@@ -1,0 +1,54 @@
+
+
+
+<nav>
+	<a href="#" class="navitem">A Pinch of Salt</a>
+	<a href="#" class="navitem">Appetizers</a>
+	<a href="#" class="navitem">Dinner</a>
+	<a href="#" class="navitem">Desserts</a>	
+	<a href="#" class="navitem">Submit</a>
+</nav>
+
+
+<div class="gallery js-flickity" data-flickity-options='{ "imagesLoaded": true, "wrapAround": true }'>
+  <div class="gallery-cell"><img src="../images/chocolatecupcake.jpg" /></div>
+  <div class="gallery-cell"><img src="../images/pasta.jpg" /></div>
+  <div class="gallery-cell"><img src="../images/plate.jpg" /></div>
+</div>
+
+<form id="send" action="">
+              
+                <p>
+
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" value="" />
+                </p>
+                
+                <p>
+                <label for="email">Email (this will not be made public)</label>
+                <input id="email" type="text" name="email" value="" />
+                </p>
+                
+               	<p>
+                <label for="profile">Ingredients</label>
+                <textarea name="profile" id="profile" cols="30" rows="10"></textarea>
+                </p>
+
+                <p>
+                <label for="profile">Method</label>
+                <textarea name="profile" id="profile" cols="30" rows="10"></textarea>
+                </p>
+
+                <p>Photo</p>
+                
+                <p>
+                <button id="submit" type="submit">Submit</button>
+                </p>
+                
+            </form>
+
+
+<script type="text/javascript">
+var elem   = document.getElementById('popular-courses');
+var slider = new Flickity( elem );
+</script>
