@@ -1,6 +1,6 @@
 *, *:before, *:after {
-  -webkit-box-sizing: border-box; 
-  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -33,7 +33,7 @@ nav {
 
 .navitem:nth-child(1) {
   color: #87CEEB;
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
   font-size: 3em;
   font-style: italic;
   text-align: left;
@@ -47,9 +47,14 @@ nav {
 
 .gallery-cell {
     width: 100%;
-    height: 250px;
+    height: 400px;
 }
 
 .gallery img {
   width: 100%;
+}
+
+.food {
+  border: 1px solid white;
+  z-index: 1;
 }
